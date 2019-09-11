@@ -1,0 +1,19 @@
+---
+# MySQL settings
+mysqlservice: mysqld
+mysql_port: 3306
+
+# WordPress version
+wp-version: 5.0
+
+# These are the WordPress database settings
+wp_db_name: wordpress
+wp_db_user: wordpress
+wp_db_password: P@ssw0rd
+
+nginx_port: 80
+server_hostname: ddos.test
+
+auto_up_disable: true
+
+core_update_level: true

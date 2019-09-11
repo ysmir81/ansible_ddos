@@ -1,0 +1,4 @@
+---
+
+- name: Stop and disable FIREWALLD
+  service: name=firewalld state=stopped enabled=False
